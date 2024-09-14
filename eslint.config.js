@@ -36,6 +36,15 @@ export default tseslint.config(
       ],
       ...react.configs.recommended.rules,
       ...react.configs["jsx-runtime"].rules,
+
+      "react/no-unknown-property": [
+        "error",
+        {
+          html: "enforce",
+          custom: "enforce",
+          exceptions: ["css"],
+        },
+      ],
     },
   }
 );
