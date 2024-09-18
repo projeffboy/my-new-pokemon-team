@@ -1,15 +1,13 @@
-import { Container, CssBaseline } from "@mui/material";
+import { Container } from "@mui/material";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const App = () => (
-  <>
-    <CssBaseline />
-    <Container maxWidth="xl">
-      <Header />
-      <main>Main</main>
-      <footer>Footer</footer>
-    </Container>
-  </>
+  <Container maxWidth="xl">
+    <Header />
+    <main>Main</main>
+    <Footer />
+  </Container>
 );
 
 export default App;

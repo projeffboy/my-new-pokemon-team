@@ -20,8 +20,12 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    /* Custom */
+    /* MUI */
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
     "jsxImportSource": "@emotion/react"
+    
   },
   "include": ["src"]
 }
